@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- <script>s = new EventSource('script.js');s.onmessage = () => location.reload();</script> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href = 'style.css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<title>Пора домой!</title>
+</head>
+<body>
+	<main>
+		<div class="main_container confetti-button" id = 'main_container'>
+		<p id="title">Камбек Матвея состоится через:</p>
+		<div class="containter" id = 'container'>
+			<div class="counter_container">
+				<p id = 'days' class = 'counter'>если</p>
+				<p id = 'days_label'>ты</p>
+			</div>
+			<div class="counter_container">
+				<p id = 'hours' class = 'counter'>прочитал</p>
+				<p id = 'hours_label'>это -</p>
+			</div>
+			<div class="counter_container">
+				<p id = 'minutes' class = 'counter'>знай,</p>
+				<p id = 'minutes_label'>что</p>
+			</div>
+			<div class="counter_container">
+				<p id = 'seconds' class = 'counter'>ты - </p>
+				<p id = 'seconds_label'>красавчик!</p>
+			</div>
+		</div>
+		<!-- <p id = 'date'>date</p> -->
+		<div class="final_container hiddenn" id = 'final'>
+			<h1 id = 'final_word'>Отсчёт завершен! 🥳</h1>
+		</div>
+		</div>
+		<div class="music_player_container">
+			<div class="song-info">
+				<div class="artist-name">name</div>
+				<div class="song-name">song name</div>
+				<div class="progress-bar">
+					<div class="fill-bar"></div>
+				</div>
+				<div class="time">00:00 - 00:00</div>
+			</div>
+			<div class="disk">
+				<div class="circle"></div>
+				<div id = 'cover' class="cover"></div>
+			</div>
+			<div class="controls">
+				<i id = 'prev' class="prev-btn fa-solid fa-backward"></i>
+				<i id = 'play' class="play-btn fa-solid fa-play"></i>
+				<i id = 'next' class="next-btn fa-solid fa-forward"></i>
+			</div>
+		</div>
+	</main>
+	<script src = 'script.js'></script>
+	<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
