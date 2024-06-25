@@ -45,6 +45,11 @@ body
 	transition: 2s;
 }
 
+.containter p
+{
+	transition: all 0.3 ease;
+}
+
 .final_container
 {
 	transition: opacity 2s;

@@ -1,6 +1,6 @@
 // countdown script:
 
-date = 'Jun 25, 2024 10:00:00'
+date = 'Jun 28, 2024 18:00:00'
 const countDownDate = new Date(date).getTime();
 
 const interval = setInterval(() => {
